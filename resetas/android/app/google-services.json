@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1046566617437",
+    "project_id": "resetasproyecto",
+    "storage_bucket": "resetasproyecto.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046566617437:android:4fdb6cfb7b9c6382f2e8b4",
+        "android_client_info": {
+          "package_name": "com.example.resetas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046566617437-facdelrd0hngsj8li07s1dcokou6akvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.resetas",
+            "certificate_hash": "1661b20e2a96ae024ee334f714808eab7f5275f0"
+          }
+        },
+        {
+          "client_id": "1046566617437-866p2hr1dl6fuo5ikodbnq2cka2s0t9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGADzoMPsDSHHLTYpZ_CKb6fQ8RK6h2rQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046566617437-866p2hr1dl6fuo5ikodbnq2cka2s0t9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
