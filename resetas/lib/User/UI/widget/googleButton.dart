@@ -9,12 +9,13 @@ class GoogleButton extends StatefulWidget {
   double heightC = 0.0;
   final String text;
   @override
-  GoogleButton(
-      {Key? key,
-      required this.text,
-      required this.onPressed,
-      required this.widthC,
-      required this.heightC});
+  GoogleButton({
+    Key? key,
+    required this.text,
+    required this.onPressed,
+    required this.widthC,
+    required this.heightC,
+  });
   @override
   State<StatefulWidget> createState() {
     return _GoogleButton();
@@ -37,7 +38,7 @@ class _GoogleButton extends State<GoogleButton> {
                   style: TextStyle(
                       fontSize: 18.0,
                       fontFamily: "Lato",
-                      color: Colors.black,
+                      color: Colors.yellow,
                       fontWeight: FontWeight.bold)))),
     );
   }

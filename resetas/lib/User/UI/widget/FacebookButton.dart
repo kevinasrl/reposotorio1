@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class FacebookButton extends StatefulWidget {
-  final VoidCallback onPressed;
+  final VoidCallback onPresseds;
   double widthC = 0.0;
   double heightC = 0.0;
   final String text;
@@ -12,7 +12,7 @@ class FacebookButton extends StatefulWidget {
   FacebookButton(
       {Key? key,
       required this.text,
-      required this.onPressed,
+      required this.onPresseds,
       required this.widthC,
       required this.heightC});
   @override
@@ -24,7 +24,7 @@ class FacebookButton extends StatefulWidget {
 class _FacebookButton extends State<FacebookButton> {
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: widget.onPressed,
+      onTap: widget.onPresseds,
       child: Container(
           margin: EdgeInsets.only(top: 10, right: 10, left: 10),
           width: widget.widthC,
@@ -37,7 +37,7 @@ class _FacebookButton extends State<FacebookButton> {
                   style: TextStyle(
                       fontSize: 18.0,
                       fontFamily: "Lato",
-                      color: Colors.black,
+                      color: Colors.yellow,
                       fontWeight: FontWeight.bold)))),
     );
   }

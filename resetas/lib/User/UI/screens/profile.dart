@@ -20,15 +20,14 @@ class Profile extends StatelessWidget {
                       fit: BoxFit.cover,
                       image: AssetImage("assets/sandwich.jpg")),
                   borderRadius: BorderRadius.all(Radius.circular(10.0))),
-            ), //foto
-
+            ),
             Container(
               height: 40.0,
               margin: EdgeInsets.only(top: 15.0),
               child: Text("Profile",
                   textAlign: TextAlign.center,
                   style: TextStyle(fontSize: 30.0)),
-            ), //PROFILE
+            ),
             Container(
               height: 40.0,
               margin: EdgeInsets.only(top: 20.0),
@@ -42,12 +41,11 @@ class Profile extends StatelessWidget {
               height: 40.0,
               margin: EdgeInsets.only(top: 20.0),
               child: TextInput(
-                  hintText: "Hobbies and interests",
+                  hintText: "comida",
                   inputType: TextInputType.multiline,
                   controller: _controllerHobbie,
                   maxline: 6),
             ),
-
             Container(
               height: 40.0,
               margin: EdgeInsets.only(top: 20.0),
